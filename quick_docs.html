@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/horizontal_line.css">
+    <link rel="icon" type="image/x-icon" href="assets/fav-icon.ico">
+
+    <!-- =====BOX ICONS===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <!-- =====Extra ICONS===== -->
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+
+    <title>Portfolio | Quick Docs</title>
+
+</head>
+
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="index.html" class="nav__logo" style="font-weight: bolder;">Jeherul Islam</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home" style="--mb-5: 0rem;--mb-6: 0rem;">
+
+            <!--Bootstrap image gallery-->
+            <center>
+                <img src="assets/img/quick_docs.png" class="img-fluid" alt="ANPR system image"
+                    style="width: 100%; max-height: 400px;">
+                <div class="home__data">
+                    <h1 class="home__title"><span class="home__title-color" style="font-size: 30px;">"Quick Docs" <br>
+                            <span style="font-size: 20px;">-An Online Document Editor with Spell checker and grammar
+                                Correction</span></span><br><span style="font-size: 20px;">-Using Django (Python
+                            Framework)</span></h1>
+
+                </div>
+            </center>
+        </section>
+
+
+        <!--===== ABOUT =====-->
+        <section class="about section " id="about" style="padding-top: 0rem;">
+            <h2 class="section-title">Detailed Explanation</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+
+                    <div class="demo_container" style="padding:5px; min-width: 390px;">
+                        <iframe class="demo_iframe"
+                            src="https://drive.google.com/file/d/1DFcZYCrO2aw6PzA7DV9b4Rsa_8wXH_bU/preview"
+                            allowfullscreen allow="autoplay" frameborder="0"
+                            style="padding:2px; min-width: 390px; min-height: 240px;"></iframe>
+                    </div>
+                    <h3 class="section-title">Demo Video</h3>
+                </div>
+
+                <div style="text-align: justify; text-justify: inter-word;">
+                    <p class="about__text">“Online Document Editor with Spell Check and Grammar Detection” is a web
+                        application based project. To write a document we may need a software to install (for example,
+                        Microsoft
+                        office word), but a system may not have a document editor installed. In that scenario, an online
+                        web-based document editor is preferable which we don&#39;t need to install and we can do all the
+                        task within the web like text formatting, creating tables, adding multimedia files etc.
+                        Moreover,
+                        a system may not be compatible to install and use particular document editor software. As a
+                        result, it saves a lot of time and resources.
+                    </p>
+                    <br>
+                    <p class="about__text">To design this project, we have used Django framework, a python framework. To
+                        provide all the important features, we have used a lot of
+                        methodologies. To create the text editor, summernote is used which is an open-source
+                        rich-text-editor. For grammar and spell correction, “Beyond Grammar” by proWriting has been
+                        used. To build the chatbot for personal assistance, Google&#39;s dialogflow is used. To
+                        design a beautiful and responsive UI, bootstrap is used.
+                    </p> <br>
+                    <p class="about__text">
+                        The web application is very much responsive and it offers a beautiful dashboard that attracts
+                        the users. It offers a text editor where a user can write his document and save it to his
+                        account
+                        and it can be edited later. It is able to correct the grammars and spells if required. The
+                        chatbot
+                        for personal assistance is working fine and it can answer the queries asked. The security
+                        measures in this application are very strong. We have named the system "Quick Docs".
+
+                    </p> <br>
+                    <p class="about__text" style="font-size:20px; font-weight: bold;">Features:</p>
+                    <ul class="about__text">
+                        <li>✅The system offers a full fledged dashboard.</li>
+                        <li>✅The system includes a chatbot for assistance.</li>
+                        <li>✅The system is able to check common spellings and suggest correct spellings.</li>
+                        <li>✅The system is aslo able to correct the grammar if required.</li>
+                        <li>✅The document editor includes various text formatting features and is also able to import
+                            other multimedia files and links within it.</li>
+                        <li>✅The document editor offers to categorise the documents accordingly to the requirement of
+                            the user.</li>
+                        <li>✅The privacy of the documents can be set by the user. By default it is set to private.</li>
+                        <li>✅A document can be edited and can be downloaded in “pdf” format for the user.</li>
+                        <li>✅The documents saved can be liked by the viewers.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="bd-grid py-0">
+                <h2 class="section-title">Tools and Technologies used</h2>
+                <div style="margin: auto; margin-top:0px ; padding-top: 0px;">
+                    <ul class="about__text">
+                        <li>▶️Frameworks: Django</li>
+                        <li>▶️Bootstrap 5.1</li>
+                        <li>▶️Summernote (Rich Text Editor)</li>
+                        <li>▶️ProWriting’s “Beyond Grammar”</li>
+                        <li>▶️Google dialogflow (Chatbot- For Perosnal Assistance)</li>
+                    </ul>
+                </div>
+                <h3 class="section-title">Download Source Code <br> <span style="font-size: 16px;">(for educational
+                        purposes only)</span></h3>
+                <p style="margin: auto; margin-top:0px ; padding-top: 0px;" class="about__text">
+                    Publishing soon...
+                </p>
+
+                <!-- Responsive horizontal line -->
+                <hr class="separator separator--line" />
+            </div>
+        </section>
+
+
+
+        <!--===== WORK =====-->
+        <section class="work section" id="work">
+            <h2 class="section-title">See More...</h2>
+
+            <div class="work__container bd-grid">
+                <a href="anpr.html" class="work__img">
+                    <img src="assets/img/anpr1.jpg" alt="ANPR Poster">
+                    <center>
+                        <p style="font-weight: bold;">ANPR (Automatic Number Plate Recognition) System - using Deep
+                            Learning</p>
+                    </center>
+                </a>
+                <a href="face_mask.html" class="work__img">
+                    <img src="assets/img/face_mask.jpg" alt="Face Mask Poster"> <br> <br>
+                    <center>
+                        <p style="font-weight: bold;">Face Mask Detection System - using Deep Learning</p>
+                    </center>
+                </a>
+
+                <a href="ava_chatbot.html" class="work__img">
+                    <img src="assets/img/ava_chatbot.png" alt="AVA Poster"> <br>
+                    <center>
+                        <p style="font-weight: bold;">"AVA"- a chatbot application - using ML and Android Studio</p>
+                    </center>
+                </a>
+                <a href="yuneed.html" class="work__img">
+                    <img src="assets/img/yuneed.png" alt="YuNeed Poster"> <br>
+
+                    <center>
+                        <p style="font-weight: bold;">"YuNeed.in"- Personal Blog</p>
+                    </center>
+                </a>
+            </div>
+
+            <!-- Responsive horizontal line -->
+            <div class="home bd-grid py-0" id="home" style="row-gap: 2.5rem; padding: 0rem 0 0rem;">
+                <hr class="separator separator--line" />
+            </div>
+
+        </section>
+
+
+
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+
+            <div class="contact__container bd-grid">
+                <form action="https://formspree.io/f/meqnoonn" class="contact__form" method="POST">
+                    <input type="text" placeholder="Name" class="contact__input" name="Name">
+                    <input type="mail" placeholder="Email" class="contact__input" name="_replyto">
+                    <textarea name="message" placeholder="Write your message here..." id="" cols="0" rows="6" class="contact__input"></textarea>
+                    <input type="submit" value="Send" class="contact__button button" id="submitBtn">
+                </form>
+            </div>
+        </section>
+    </main>
+
+
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <p class="footer__title">Jeherul Islam</p>
+        <div class="footer__social">
+            <!--
+                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+                -->
+            <a href="https://cutt.ly/3Uxz3bH" target="_blank" class="footer__icon"><i class='bx bxl-facebook'></i></a>
+            <a href="https://www.linkedin.com/in/jeherul-islam-46636a166" target="_blank" class="footer__icon"><i
+                    class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/ji5225" target="_blank" class="footer__icon"><i class='bx bxl-github'></i></a>
+        </div>
+        <p class="footer__copy">&#169;2022 <span style="color:rgb(206, 18, 105)">Mr.Jeai.</span> &nbsp; All rigths
+            reserved</p>
+    </footer>
+
+
+    <!--===== SCROLL REVEAL =====-->
+    <!--<script src="https://unpkg.com/scrollreveal"></script>-->
+    <script src="assets/js/scrollreveal.js"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

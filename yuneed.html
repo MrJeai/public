@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/horizontal_line.css">
+    <link rel="icon" type="image/x-icon" href="assets/fav-icon.ico">
+
+    <!-- =====BOX ICONS===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <!-- =====Extra ICONS===== -->
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+
+    <title>Portfolio | YuNeed</title>
+
+</head>
+
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="index.html" class="nav__logo" style="font-weight: bolder;">Jeherul Islam</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home" style="--mb-5: 0rem;--mb-6: 0rem;">
+
+            <!--Bootstrap image gallery-->
+            <center>
+                <img src="assets/img/yuneed.png" class="img-fluid" alt="ANPR system image"
+                    style="width: 100%; max-height: 400px;">
+                <div class="home__data">
+                    <h1 class="home__title"><span class="home__title-color" style="font-size: 30px;">"YuNeed.in" <span
+                                style="font-size: 20px;">-a blog</span></span><br><span style="font-size: 20px;"></span>
+                    </h1>
+
+                </div>
+            </center>
+        </section>
+
+
+        <!--===== ABOUT =====-->
+        <section class="about section " id="about" style="padding-top: 0rem;">
+            <h2 class="section-title">Detailed Explanation</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+
+                    <div class="demo_container">
+                        <a href="https://www.yuneed.in/" target="_blank" class="work__img">
+                            <img src="assets/img/yuneed2.jpeg" alt="Face Mask Poster">
+                        </a>
+                    </div>
+                </div>
+
+                <div style="text-align: justify; text-justify: inter-word;">
+                    <p class="about__text">"YuNeed" is a informatic blog that mainly cover jobs and internships related
+                        post.</p>
+                    <br>
+                    <p class="about__text">
+                        Welcome to YuNeed, your number one source for all things [Tech News |Jobs| Internships| Free
+                        Online Courses | Earn Money Online | Reviews and much more. We're dedicated to providing you the
+                        best of our services, with a focus on dependability.
+                        We're working to turn our passion for blogging into a full-time-Job. <br> <br> We hope you enjoy
+                        our services as much as we enjoy offering them to you.
+                    </p> <br>
+
+                </div>
+            </div>
+
+            <div class="bd-grid py-0">
+
+                <a href="https://www.yuneed.in/" target="_blank">
+                    <h3 class="section-title">Visit www.yuneed.in <br> <span style="font-size: 16px;"></span></h3>
+                </a>
+                <p style="margin: auto; margin-top:0px ; padding-top: 0px; text-align: center" class="about__text">
+                    <a href="https://www.yuneed.in/" target="_blank" class="button">Click Here</a>
+                </p>
+
+                <hr class="separator separator--line" />
+
+            </div>
+        </section>
+
+
+
+
+
+
+
+        <!--===== WORK =====-->
+        <section class="work section" id="work">
+            <h2 class="section-title">See More...</h2>
+
+            <div class="work__container bd-grid">
+                <a href="anpr.html" class="work__img">
+                    <img src="assets/img/anpr1.jpg" alt="ANPR Poster">
+                    <center>
+                        <p style="font-weight: bold;">ANPR (Automatic Number Plate Recognition) System - using Deep
+                            Learning</p>
+                    </center>
+                </a>
+                <a href="face_mask.html" class="work__img">
+                    <img src="assets/img/face_mask.jpg" alt="Face Mask Poster"> <br> <br>
+                    <center>
+                        <p style="font-weight: bold;">Face Mask Detection System - using Deep Learning</p>
+                    </center>
+                </a>
+                <a href="quick_docs.html" class="work__img">
+                    <img src="assets/img/quick_docs.png" alt="Quick Docs Poster"> <br>
+                    <center>
+                        <p style="font-weight: bold;">"QuickDocs" - an Online Document Editor - using Django (Python
+                            Framework)</p>
+                    </center>
+                </a>
+                <a href="ava_chatbot.html" class="work__img">
+                    <img src="assets/img/ava_chatbot.png" alt="AVA Poster"> <br>
+                    <center>
+                        <p style="font-weight: bold;">"AVA"- a chatbot application - using ML and Android Studio</p>
+                    </center>
+                </a>
+
+            </div>
+
+            <!-- Responsive horizontal line -->
+            <div class="home bd-grid py-0" id="home" style="row-gap: 2.5rem; padding: 0rem 0 0rem;">
+                <hr class="separator separator--line" />
+            </div>
+
+        </section>
+
+
+
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+
+            <div class="contact__container bd-grid">
+                <form action="https://formspree.io/f/meqnoonn" class="contact__form" method="POST">
+                    <input type="text" placeholder="Name" class="contact__input" name="Name">
+                    <input type="mail" placeholder="Email" class="contact__input" name="_replyto">
+                    <textarea name="message" placeholder="Write your message here..." id="" cols="0" rows="6" class="contact__input"></textarea>
+                    <input type="submit" value="Send" class="contact__button button" id="submitBtn">
+                </form>
+            </div>
+        </section>
+    </main>
+
+
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <p class="footer__title">Jeherul Islam</p>
+        <div class="footer__social">
+            <!--
+                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+                -->
+            <a href="https://cutt.ly/3Uxz3bH" target="_blank" class="footer__icon"><i class='bx bxl-facebook'></i></a>
+            <a href="https://www.linkedin.com/in/jeherul-islam-46636a166" target="_blank" class="footer__icon"><i
+                    class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/ji5225" target="_blank" class="footer__icon"><i class='bx bxl-github'></i></a>
+        </div>
+        <p class="footer__copy">&#169;2022 <span style="color:rgb(206, 18, 105)">Mr.Jeai.</span> &nbsp; All rigths
+            reserved</p>
+    </footer>
+
+
+    <!--===== SCROLL REVEAL =====-->
+    <!--<script src="https://unpkg.com/scrollreveal"></script>-->
+    <script src="assets/js/scrollreveal.js"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
